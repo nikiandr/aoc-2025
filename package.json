@@ -11,5 +11,6 @@
   },
   "scripts": {
     "aoc:1": "bun run solutions/day_1/solution.ts"
+    "aoc:2": "bun run solutions/day_2/solution.ts"
   }
 }

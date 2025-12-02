@@ -8,9 +8,6 @@ const input_array: Array<string> = input_file.split('\n').slice(0, -1)
 const next_step = (current: number, input: string): number => {
   const direction = input[0] === 'R' ? 1 : -1
   const step_number = Number(input.slice(1))
-  if (step_number == 0) {
-    return 0
-  }
   if (direction == 1) {
     return (current + step_number) % total_steps
   }
